@@ -1,0 +1,45 @@
+{
+  "id": "ludo-comedy-night-1",
+  "featherId": "ludo-comedy-1",
+  "url": "/shows/ludo-comedy-night-1",
+  "title": "LUDO Comedy Night",
+  "date": "2025-08-22T20:00:00-05:00",
+  "endDate": "2025-08-22T22:00:00-05:00",
+  "doorTime": "2025-08-22T19:30:00-05:00",
+  "venue": {
+    "name": "LUDO Comedy",
+    "streetAddress": "167 Bleecker Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10012",
+    "country": "US",
+    "latitude": 40.7282,
+    "longitude": -74.0014
+  },
+  "performers": [
+    {
+      "name": "TBA",
+      "type": "Headliner",
+      "bio": "Featured comedian to be announced",
+      "instagram": ""
+    }
+  ],
+  "description": "Join us for LUDO's signature comedy night featuring the best stand-up comedians in NYC. An intimate evening of laughs in the heart of Greenwich Village.",
+  "image": "/brand.png",
+  "thumbnailImage": "/brand.png",
+  "tickets": {
+    "price": 20,
+    "currency": "USD",
+    "url": "https://www.feather.rsvp/o/ludo-comedy",
+    "availability": "InStock",
+    "validFrom": "2025-08-18T00:00:00-05:00"
+  },
+  "policies": {
+    "ageRestriction": "21+",
+    "drinkMinimum": "2 drinks per person",
+    "doorPolicy": "Doors open 30 minutes before showtime",
+    "seatingPolicy": "First come, first served"
+  },
+  "status": "EventScheduled",
+  "featured": true
+}

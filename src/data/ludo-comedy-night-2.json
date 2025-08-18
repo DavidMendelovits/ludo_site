@@ -1,0 +1,45 @@
+{
+  "id": "ludo-comedy-night-2",
+  "featherId": "ludo-comedy-2",
+  "url": "/shows/ludo-comedy-night-2",
+  "title": "LUDO Late Night Comedy",
+  "date": "2025-08-23T22:00:00-05:00",
+  "endDate": "2025-08-24T00:00:00-05:00",
+  "doorTime": "2025-08-23T21:30:00-05:00",
+  "venue": {
+    "name": "LUDO Comedy",
+    "streetAddress": "167 Bleecker Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10012",
+    "country": "US",
+    "latitude": 40.7282,
+    "longitude": -74.0014
+  },
+  "performers": [
+    {
+      "name": "TBA",
+      "type": "Headliner",
+      "bio": "Special late night showcase",
+      "instagram": ""
+    }
+  ],
+  "description": "Late night comedy for night owls! Join us for our after-hours comedy showcase featuring edgier material and experimental acts.",
+  "image": "/brand.png",
+  "thumbnailImage": "/brand.png",
+  "tickets": {
+    "price": 15,
+    "currency": "USD",
+    "url": "https://www.feather.rsvp/o/ludo-comedy",
+    "availability": "InStock",
+    "validFrom": "2025-08-18T00:00:00-05:00"
+  },
+  "policies": {
+    "ageRestriction": "21+",
+    "drinkMinimum": "2 drinks per person",
+    "doorPolicy": "Doors open 30 minutes before showtime",
+    "seatingPolicy": "First come, first served"
+  },
+  "status": "EventScheduled",
+  "featured": true
+}
