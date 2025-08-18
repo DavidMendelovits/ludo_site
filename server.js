@@ -41,7 +41,12 @@ if (isProduction) {
 } else {
   const { createServer } = await import('vite');
   vite = await createServer({
-    server: { middlewareMode: true },
+    server: { 
+      middlewareMode: true,
+      hmr: {
+        host: '0.0.0.0'
+      }
+    },
     appType: 'custom',
     base
   });
@@ -78,6 +83,6 @@ app.use('*', async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server running at http://0.0.0.0:${port}`);
 });
