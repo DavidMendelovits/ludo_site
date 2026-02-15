@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run build && mv dist/client/index.html dist/server/index.html",
+  "outputDirectory": "dist/client",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/ssr" }
+  ]
+}
