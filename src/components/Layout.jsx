@@ -16,11 +16,12 @@ function Layout({ children }) {
           <nav className="container mx-auto px-4 py-4">
             <div className="flex justify-between items-center">
               <Link to="/" className="text-4xl font-bold text-yellow-400">
-                <span className="bg-gradient-to-r from-[#CC5500] via-[#722F37] to-[#355E3B] text-transparent bg-clip-text">LUDO COMEDY</span>
+                <span className="bg-gradient-to-r from-[#CC5500] via-[#722F37] to-[#355E3B] text-transparent bg-clip-text">LUDO</span>
               </Link>
               <div className="space-x-6">
                 <Link to="/" className="hover:text-yellow-400">Home</Link>
                 <a href="/#shows" className="hover:text-yellow-400">Shows</a>
+                <a href="/#about" className="hover:text-yellow-400">About</a>
                 <a href="/#contact" className="hover:text-yellow-400">Contact</a>
               </div>
             </div>
@@ -31,7 +32,14 @@ function Layout({ children }) {
         
         <footer className="border-t border-gray-800 mt-20">
           <div className="container mx-auto px-4 py-8 text-center text-gray-400">
-            <p>&copy; 2025 Ludo Comedy.</p>
+            <p className="mb-2">&copy; 2025 LUDO Comedy. For comedy fans.</p>
+            <p className="text-sm text-gray-500">
+              <a href="/#shows" className="hover:text-yellow-400">Shows</a>
+              {' '}&middot;{' '}
+              <a href="/#about" className="hover:text-yellow-400">About</a>
+              {' '}&middot;{' '}
+              <a href="/#contact" className="hover:text-yellow-400">Contact</a>
+            </p>
           </div>
         </footer>
       </div>

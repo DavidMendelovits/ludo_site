@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourcomedysite.com/sitemap.xml
+Sitemap: https://project-ludo.com/sitemap.xml
