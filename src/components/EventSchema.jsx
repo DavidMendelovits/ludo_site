@@ -9,7 +9,7 @@ function EventSchema({ show }) {
     "startDate": show.date,
     "endDate": show.endDate,
     "doorTime": show.doorTime,
-    "url": `https://yourcomedysite.com${show.url}`,
+    "url": `https://project-ludo.com${show.url}`,
     
     "location": {
       "@type": "Place",
@@ -55,8 +55,8 @@ function EventSchema({ show }) {
     
     "organizer": {
       "@type": "Organization",
-      "name": "Comedy Nights",
-      "url": "https://yourcomedysite.com"
+      "name": "LUDO Comedy",
+      "url": "https://project-ludo.com"
     }
   };
 
